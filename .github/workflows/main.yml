@@ -1,5 +1,5 @@
 # Hourly scraping
-name: android_scraping
+name: apple_scraper
 
 # Controls when the action will run.
 on:
@@ -26,7 +26,7 @@ jobs:
         R -e 'install.packages("tibble")'
     # Run R script
     - name: Scrape
-      run: Rscript google_play_file.R
+      run: Rscript apple_parser.R
       
  # Add new files in data folder, commit along with other modified files, push
     - name: Commit files
