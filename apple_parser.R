@@ -76,3 +76,4 @@ for(i in 1:iterations) {
 }
 
 write.table(output,paste0('apple_ratings.csv'),append = TRUE, sep=',', col.names = FALSE)   
+
