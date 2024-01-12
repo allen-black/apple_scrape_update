@@ -2,7 +2,7 @@ library(httr)
 library(stringi)
 library(tibble)
 library(jsonlite)
-library(rjson)
+
 
 output <- tribble (~date, ~site, ~appName, ~id, ~userRatingCount, ~userRatingCountForCurrentVersion, ~averageUserRating, ~averageUserRatingForCurrentVersion, ~currentVersionReleaseDate, ~version, ~fileSizeBytes, ~releaseDate, ~releaseNotes, ~appId)
 
