@@ -5,6 +5,7 @@ library(tibble)
 library(jsonlite)
 
 
+
 output <- tribble (~date, ~site, ~appName, ~id, ~userRatingCount, ~userRatingCountForCurrentVersion, ~averageUserRating, ~averageUserRatingForCurrentVersion, ~currentVersionReleaseDate, ~version, ~fileSizeBytes, ~releaseDate, ~releaseNotes, ~appId)
 
 timestamp <- Sys.time()
