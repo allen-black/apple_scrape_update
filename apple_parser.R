@@ -39,7 +39,7 @@ for(i in 1:iterations) {
   raw_json <- httr::GET(url_json) %>% 
     httr::content()
   
-  myData <- fromJSON(raw_json)
+  myData <- rjson::fromJSON(raw_json)
   
   averageUserRating <- myData[["results"]][[1]][["averageUserRating"]]
   userRatingCount <- myData[["results"]][[1]][["userRatingCount"]]
