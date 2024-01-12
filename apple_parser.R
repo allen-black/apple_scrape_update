@@ -1,3 +1,4 @@
+library(rjson)
 library(httr)
 library(stringi)
 library(tibble)
